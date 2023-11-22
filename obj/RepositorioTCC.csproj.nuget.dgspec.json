@@ -1,26 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\felip\\Desktop\\Felipe\\Faculdade\\12Periodo\\Desenvolvimento.net\\RepositorioTCC\\RepositorioTCC.csproj": {}
+    "F:\\Users\\Kaka\\Documentos\\C#\\TCD\\RepositorioTCC\\RepositorioTCC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\felip\\Desktop\\Felipe\\Faculdade\\12Periodo\\Desenvolvimento.net\\RepositorioTCC\\RepositorioTCC.csproj": {
+    "F:\\Users\\Kaka\\Documentos\\C#\\TCD\\RepositorioTCC\\RepositorioTCC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\felip\\Desktop\\Felipe\\Faculdade\\12Periodo\\Desenvolvimento.net\\RepositorioTCC\\RepositorioTCC.csproj",
+        "projectUniqueName": "F:\\Users\\Kaka\\Documentos\\C#\\TCD\\RepositorioTCC\\RepositorioTCC.csproj",
         "projectName": "RepositorioTCC",
-        "projectPath": "C:\\Users\\felip\\Desktop\\Felipe\\Faculdade\\12Periodo\\Desenvolvimento.net\\RepositorioTCC\\RepositorioTCC.csproj",
-        "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\felip\\Desktop\\Felipe\\Faculdade\\12Periodo\\Desenvolvimento.net\\RepositorioTCC\\obj\\",
+        "projectPath": "F:\\Users\\Kaka\\Documentos\\C#\\TCD\\RepositorioTCC\\RepositorioTCC.csproj",
+        "packagesPath": "C:\\Users\\cauaq\\.nuget\\packages\\",
+        "outputPath": "F:\\Users\\Kaka\\Documentos\\C#\\TCD\\RepositorioTCC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\felip\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\cauaq\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -75,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }

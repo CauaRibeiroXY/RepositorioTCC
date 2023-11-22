@@ -1,0 +1,72 @@
+﻿@page "/tccs"
+@inject NavigationManager NavigationManager
+@inject TccDB.TccServices service
+
+<h3>Lista de TCCs</h3>
+
+@if (Tccs != null && Tccs.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Título</th>
+                <th>Autor</th>
+                <th>Orientador</th>
+                <th>Ano</th>
+                <th>Palavras-chave</th>
+                <th>Resumo</th>
+                <th>Opções</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var tcc in Tccs)
+            {
+                <tr>
+                    <td>@tcc.Id</td>
+                    <td>@tcc.Titulo</td>
+                    <td>@tcc.Autor</td>
+                    <td>@tcc.Orientador</td>
+                    <td>@tcc.Ano</td>
+                    <td>@tcc.PalavrasChave</td>
+                    <td>@tcc.Resumo</td>
+                    <td>
+                        <button @onclick="() => EditarTcc(tcc)" class="btn btn-primary">Editar</button>
+                        <button @onclick="() => ExcluirTcc(tcc)" class="btn btn-danger">Excluir</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Nenhum TCC encontrado.</p>
+}
+
+<button @onclick="AdicionarTcc" class="btn btn-success">Adicionar TCC</button>
+
+@code {
+    private List<Tcc> Tccs;
+
+    protected override async Task OnInitializedAsync()
+    {
+        Tccs = await service.GetTccsAsync();
+    }
+
+    private void AdicionarTcc()
+    {
+        NavigationManager.NavigateTo("/tccs/novo");
+    }
+
+    private void EditarTcc(Tcc tcc)
+    {
+        NavigationManager.NavigateTo($"/tccs/editar/{tcc.Id}");
+    }
+
+    private async Task ExcluirTcc(Tcc tcc)
+    {
+        await service.ExcluirTccAsync(tcc.Id);
+        Tccs = await service.GetTccsAsync();
+    }
+}

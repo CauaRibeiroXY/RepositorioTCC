@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Z8CYQ6zaw/Og53BAJL9YpduMNNuYJZpJxagvOZn59JE=",
+  "Hash": "+akbn7kqiSuzOrTckowAdO/dLaAm36gZN+gSWZEvfbs=",
   "Source": "RepositorioTCC",
   "BasePath": "_content/RepositorioTCC",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "RepositorioTCC\\wwwroot",
       "Source": "RepositorioTCC",
-      "ContentRoot": "C:\\Users\\felip\\Desktop\\Felipe\\Faculdade\\12Periodo\\Desenvolvimento.net\\RepositorioTCC\\wwwroot\\",
+      "ContentRoot": "F:\\Users\\Kaka\\Documentos\\C#\\TCD\\RepositorioTCC\\wwwroot\\",
       "BasePath": "_content/RepositorioTCC",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\felip\\Desktop\\Felipe\\Faculdade\\12Periodo\\Desenvolvimento.net\\RepositorioTCC\\obj\\Debug\\net7.0\\scopedcss\\bundle\\RepositorioTCC.styles.css",
+      "Identity": "F:\\Users\\Kaka\\Documentos\\C#\\TCD\\RepositorioTCC\\obj\\Debug\\net7.0\\scopedcss\\bundle\\RepositorioTCC.styles.css",
       "SourceId": "RepositorioTCC",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\felip\\Desktop\\Felipe\\Faculdade\\12Periodo\\Desenvolvimento.net\\RepositorioTCC\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "F:\\Users\\Kaka\\Documentos\\C#\\TCD\\RepositorioTCC\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/RepositorioTCC",
       "RelativePath": "RepositorioTCC.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\felip\\Desktop\\Felipe\\Faculdade\\12Periodo\\Desenvolvimento.net\\RepositorioTCC\\obj\\Debug\\net7.0\\scopedcss\\bundle\\RepositorioTCC.styles.css"
+      "OriginalItemSpec": "F:\\Users\\Kaka\\Documentos\\C#\\TCD\\RepositorioTCC\\obj\\Debug\\net7.0\\scopedcss\\bundle\\RepositorioTCC.styles.css"
     },
     {
-      "Identity": "C:\\Users\\felip\\Desktop\\Felipe\\Faculdade\\12Periodo\\Desenvolvimento.net\\RepositorioTCC\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\RepositorioTCC.bundle.scp.css",
+      "Identity": "F:\\Users\\Kaka\\Documentos\\C#\\TCD\\RepositorioTCC\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\RepositorioTCC.bundle.scp.css",
       "SourceId": "RepositorioTCC",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\felip\\Desktop\\Felipe\\Faculdade\\12Periodo\\Desenvolvimento.net\\RepositorioTCC\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "F:\\Users\\Kaka\\Documentos\\C#\\TCD\\RepositorioTCC\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/RepositorioTCC",
       "RelativePath": "RepositorioTCC.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\felip\\Desktop\\Felipe\\Faculdade\\12Periodo\\Desenvolvimento.net\\RepositorioTCC\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\RepositorioTCC.bundle.scp.css"
+      "OriginalItemSpec": "F:\\Users\\Kaka\\Documentos\\C#\\TCD\\RepositorioTCC\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\RepositorioTCC.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\felip\\Desktop\\Felipe\\Faculdade\\12Periodo\\Desenvolvimento.net\\RepositorioTCC\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "F:\\Users\\Kaka\\Documentos\\C#\\TCD\\RepositorioTCC\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "RepositorioTCC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\felip\\Desktop\\Felipe\\Faculdade\\12Periodo\\Desenvolvimento.net\\RepositorioTCC\\wwwroot\\",
+      "ContentRoot": "F:\\Users\\Kaka\\Documentos\\C#\\TCD\\RepositorioTCC\\wwwroot\\",
       "BasePath": "_content/RepositorioTCC",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\felip\\Desktop\\Felipe\\Faculdade\\12Periodo\\Desenvolvimento.net\\RepositorioTCC\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "F:\\Users\\Kaka\\Documentos\\C#\\TCD\\RepositorioTCC\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "RepositorioTCC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\felip\\Desktop\\Felipe\\Faculdade\\12Periodo\\Desenvolvimento.net\\RepositorioTCC\\wwwroot\\",
+      "ContentRoot": "F:\\Users\\Kaka\\Documentos\\C#\\TCD\\RepositorioTCC\\wwwroot\\",
       "BasePath": "_content/RepositorioTCC",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\felip\\Desktop\\Felipe\\Faculdade\\12Periodo\\Desenvolvimento.net\\RepositorioTCC\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "F:\\Users\\Kaka\\Documentos\\C#\\TCD\\RepositorioTCC\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "RepositorioTCC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\felip\\Desktop\\Felipe\\Faculdade\\12Periodo\\Desenvolvimento.net\\RepositorioTCC\\wwwroot\\",
+      "ContentRoot": "F:\\Users\\Kaka\\Documentos\\C#\\TCD\\RepositorioTCC\\wwwroot\\",
       "BasePath": "_content/RepositorioTCC",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\felip\\Desktop\\Felipe\\Faculdade\\12Periodo\\Desenvolvimento.net\\RepositorioTCC\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "F:\\Users\\Kaka\\Documentos\\C#\\TCD\\RepositorioTCC\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "RepositorioTCC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\felip\\Desktop\\Felipe\\Faculdade\\12Periodo\\Desenvolvimento.net\\RepositorioTCC\\wwwroot\\",
+      "ContentRoot": "F:\\Users\\Kaka\\Documentos\\C#\\TCD\\RepositorioTCC\\wwwroot\\",
       "BasePath": "_content/RepositorioTCC",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\felip\\Desktop\\Felipe\\Faculdade\\12Periodo\\Desenvolvimento.net\\RepositorioTCC\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "F:\\Users\\Kaka\\Documentos\\C#\\TCD\\RepositorioTCC\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "RepositorioTCC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\felip\\Desktop\\Felipe\\Faculdade\\12Periodo\\Desenvolvimento.net\\RepositorioTCC\\wwwroot\\",
+      "ContentRoot": "F:\\Users\\Kaka\\Documentos\\C#\\TCD\\RepositorioTCC\\wwwroot\\",
       "BasePath": "_content/RepositorioTCC",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\felip\\Desktop\\Felipe\\Faculdade\\12Periodo\\Desenvolvimento.net\\RepositorioTCC\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "F:\\Users\\Kaka\\Documentos\\C#\\TCD\\RepositorioTCC\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "RepositorioTCC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\felip\\Desktop\\Felipe\\Faculdade\\12Periodo\\Desenvolvimento.net\\RepositorioTCC\\wwwroot\\",
+      "ContentRoot": "F:\\Users\\Kaka\\Documentos\\C#\\TCD\\RepositorioTCC\\wwwroot\\",
       "BasePath": "_content/RepositorioTCC",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\felip\\Desktop\\Felipe\\Faculdade\\12Periodo\\Desenvolvimento.net\\RepositorioTCC\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "F:\\Users\\Kaka\\Documentos\\C#\\TCD\\RepositorioTCC\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "RepositorioTCC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\felip\\Desktop\\Felipe\\Faculdade\\12Periodo\\Desenvolvimento.net\\RepositorioTCC\\wwwroot\\",
+      "ContentRoot": "F:\\Users\\Kaka\\Documentos\\C#\\TCD\\RepositorioTCC\\wwwroot\\",
       "BasePath": "_content/RepositorioTCC",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\felip\\Desktop\\Felipe\\Faculdade\\12Periodo\\Desenvolvimento.net\\RepositorioTCC\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "F:\\Users\\Kaka\\Documentos\\C#\\TCD\\RepositorioTCC\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "RepositorioTCC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\felip\\Desktop\\Felipe\\Faculdade\\12Periodo\\Desenvolvimento.net\\RepositorioTCC\\wwwroot\\",
+      "ContentRoot": "F:\\Users\\Kaka\\Documentos\\C#\\TCD\\RepositorioTCC\\wwwroot\\",
       "BasePath": "_content/RepositorioTCC",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\felip\\Desktop\\Felipe\\Faculdade\\12Periodo\\Desenvolvimento.net\\RepositorioTCC\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "F:\\Users\\Kaka\\Documentos\\C#\\TCD\\RepositorioTCC\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "RepositorioTCC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\felip\\Desktop\\Felipe\\Faculdade\\12Periodo\\Desenvolvimento.net\\RepositorioTCC\\wwwroot\\",
+      "ContentRoot": "F:\\Users\\Kaka\\Documentos\\C#\\TCD\\RepositorioTCC\\wwwroot\\",
       "BasePath": "_content/RepositorioTCC",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\felip\\Desktop\\Felipe\\Faculdade\\12Periodo\\Desenvolvimento.net\\RepositorioTCC\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "F:\\Users\\Kaka\\Documentos\\C#\\TCD\\RepositorioTCC\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "RepositorioTCC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\felip\\Desktop\\Felipe\\Faculdade\\12Periodo\\Desenvolvimento.net\\RepositorioTCC\\wwwroot\\",
+      "ContentRoot": "F:\\Users\\Kaka\\Documentos\\C#\\TCD\\RepositorioTCC\\wwwroot\\",
       "BasePath": "_content/RepositorioTCC",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\felip\\Desktop\\Felipe\\Faculdade\\12Periodo\\Desenvolvimento.net\\RepositorioTCC\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "F:\\Users\\Kaka\\Documentos\\C#\\TCD\\RepositorioTCC\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "RepositorioTCC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\felip\\Desktop\\Felipe\\Faculdade\\12Periodo\\Desenvolvimento.net\\RepositorioTCC\\wwwroot\\",
+      "ContentRoot": "F:\\Users\\Kaka\\Documentos\\C#\\TCD\\RepositorioTCC\\wwwroot\\",
       "BasePath": "_content/RepositorioTCC",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\felip\\Desktop\\Felipe\\Faculdade\\12Periodo\\Desenvolvimento.net\\RepositorioTCC\\wwwroot\\css\\site.css",
+      "Identity": "F:\\Users\\Kaka\\Documentos\\C#\\TCD\\RepositorioTCC\\wwwroot\\css\\site.css",
       "SourceId": "RepositorioTCC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\felip\\Desktop\\Felipe\\Faculdade\\12Periodo\\Desenvolvimento.net\\RepositorioTCC\\wwwroot\\",
+      "ContentRoot": "F:\\Users\\Kaka\\Documentos\\C#\\TCD\\RepositorioTCC\\wwwroot\\",
       "BasePath": "_content/RepositorioTCC",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\felip\\Desktop\\Felipe\\Faculdade\\12Periodo\\Desenvolvimento.net\\RepositorioTCC\\wwwroot\\favicon.png",
+      "Identity": "F:\\Users\\Kaka\\Documentos\\C#\\TCD\\RepositorioTCC\\wwwroot\\favicon.png",
       "SourceId": "RepositorioTCC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\felip\\Desktop\\Felipe\\Faculdade\\12Periodo\\Desenvolvimento.net\\RepositorioTCC\\wwwroot\\",
+      "ContentRoot": "F:\\Users\\Kaka\\Documentos\\C#\\TCD\\RepositorioTCC\\wwwroot\\",
       "BasePath": "_content/RepositorioTCC",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
