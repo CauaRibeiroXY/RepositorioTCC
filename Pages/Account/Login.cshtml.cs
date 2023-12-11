@@ -5,13 +5,13 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace RepositorioTCC.Pages.Account
 {
-    public class LoginModel : PageModel {
+    public class LoginMaodel : PageModel {
         [BindProperty]
         public Credential Credential { get; set; }
 
         public void OnGet(){
             this.Credential = new Credential {UserName = "admin"};
-            
+
         }
 
         public void OnPost(){
