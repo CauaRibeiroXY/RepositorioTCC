@@ -32,7 +32,7 @@
         if (result != null)
         {
             stateContainer.user = result;
-            navigationManager.NavigateTo("/sala");
+            navigationManager.NavigateTo("/tccs");
         }
         else
         {
@@ -45,7 +45,7 @@
         await RepositorioTCCAuthenticationStateProvider.LoginAsync(email, password);
 
         if(RepositorioTCCAuthenticationStateProvider.CurrentUser.Email is not null) {
-            navigationManager.NavigateTo("/sala");
+            navigationManager.NavigateTo("/tccs");
         }
     }
 

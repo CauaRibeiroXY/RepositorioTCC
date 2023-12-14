@@ -9,7 +9,6 @@ public class TCCDbContext : DbContext
     }
 
     #region Propriedades
-    public DbSet<Tcc> Sala { get; set; }
     public DbSet<User> User { get; set; }
     #endregion
 
