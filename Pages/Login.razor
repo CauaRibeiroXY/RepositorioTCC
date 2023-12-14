@@ -8,16 +8,16 @@
 @inject RepositorioTCCAuthenticationStateProvider RepositorioTCCAuthenticationStateProvider
 
 
-
-<body class="login-body">
-    <div class="login-container">
-        <h3 class="login-title">Login</h3>
-        <input class="input-login-email" type="email" id="email" @bind-value="@email" />
-        <input class="input-login-password" type="password" id="password" @bind-value="@password" />
-        <button class="button-login" @onclick="LoginAsync">Login</button>
-        <button class="button-cadastro" @onclick="GoToCadastro">Cadastrar</button>
-    </div>
-</body>
+<div class="login-wrap">
+  <h2 class="titulo">Login</h2>
+  
+  <div class="form">
+    <input class="teste" type="email" placeholder="Email" id="email" @bind-value="@email" />
+    <input class="teste" type="password" placeholder="Senha" id="password" @bind-value="@password" />
+    <button class="login"@onclick="LoginAsync"> Login </button>
+    <button class="login" @onclick="GoToCadastro"> Cadastrar </button>
+  </div>
+</div>
 
 @code {
     private User user = new User();
@@ -53,3 +53,8 @@
             navigationManager.NavigateTo("/cadastro");
     }
 }
+
+
+
+ 
+

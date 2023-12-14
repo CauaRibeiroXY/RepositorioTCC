@@ -7,22 +7,16 @@
 @inject StateContainer stateContainer
 @inject RepositorioTCCAuthenticationStateProvider RepositorioTCCAuthenticationStateProvider
 
-<body>
-    <header>
-        <h1>Repositorios de TCCs</h1>
-        <div class="account-info">
-            <span>Minha Conta</span>
-            <button>Sair</button>
-        </div>
-        </header>
-    <div class="cadastro-container">
-        <h3 class="cadastro-title">cadastro</h3>
-        <input class="input-cadastro-nome" type="text" id="nome" placeholder="Nome" @bind-value="@user.Nome" />
-        <input class="input-cadastro-email" type="email" id="email" placeholder="Email" @bind-value="@user.Email" />
-        <input class="input-cadastro-password" type="password" placeholder="Senha" id="password" @bind-value="@user.Senha" />
-        <button class="button-novo-cadastro" @onclick="Cadastrar">Salvar</button>        
-    </div>
-</body>
+<div class="login-wrap">
+  <h2 class="titulo">Cadastrar</h2>
+  
+  <div class="form">
+    <input class="teste" type="text" id="nome" placeholder="Nome" @bind-value="@user.Nome" />
+    <input class="teste" type="email" id="email" placeholder="Email" @bind-value="@user.Email"  />
+    <input class="teste" type="password" placeholder="Senha" id="password" @bind-value="@user.Senha" />
+    <button class="login" @onclick="Cadastrar"> Cadastrar </button>
+  </div>
+</div>
 
 @code {
     private User user = new User();

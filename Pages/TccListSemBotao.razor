@@ -1,0 +1,49 @@
+@page "/tccsusuario"
+@inject NavigationManager NavigationManager
+@inject TccDB.TccServices service
+
+<h3>Lista de TCCs</h3>
+
+@if (Tccs != null && Tccs.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Título</th>
+                <th>Autor</th>
+                <th>Orientador</th>
+                <th>Ano</th>
+                <th>Palavras-chave</th>
+                <th>Resumo</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var tcc in Tccs)
+            {
+                <tr>
+                    <td>@tcc.Id</td>
+                    <td>@tcc.Titulo</td>
+                    <td>@tcc.Autor</td>
+                    <td>@tcc.Orientador</td>
+                    <td>@tcc.Ano</td>
+                    <td>@tcc.PalavrasChave</td>
+                    <td>@tcc.Resumo</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Nenhum TCC encontrado.</p>
+}
+
+@code {
+    private List<Tcc> Tccs;
+
+    protected override async Task OnInitializedAsync()
+    {
+        Tccs = await service.GetTccsAsync();
+    }
+}

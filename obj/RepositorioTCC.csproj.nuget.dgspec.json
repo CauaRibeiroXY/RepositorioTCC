@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\IFNMG\\Desktop\\net\\RepositorioTCC\\RepositorioTCC.csproj": {}
+    "C:\\Users\\m_da3\\Documents\\RepositorioTCC\\RepositorioTCC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\IFNMG\\Desktop\\net\\RepositorioTCC\\RepositorioTCC.csproj": {
+    "C:\\Users\\m_da3\\Documents\\RepositorioTCC\\RepositorioTCC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IFNMG\\Desktop\\net\\RepositorioTCC\\RepositorioTCC.csproj",
+        "projectUniqueName": "C:\\Users\\m_da3\\Documents\\RepositorioTCC\\RepositorioTCC.csproj",
         "projectName": "RepositorioTCC",
-        "projectPath": "C:\\Users\\IFNMG\\Desktop\\net\\RepositorioTCC\\RepositorioTCC.csproj",
-        "packagesPath": "C:\\Users\\IFNMG\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IFNMG\\Desktop\\net\\RepositorioTCC\\obj\\",
+        "projectPath": "C:\\Users\\m_da3\\Documents\\RepositorioTCC\\RepositorioTCC.csproj",
+        "packagesPath": "C:\\Users\\m_da3\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\m_da3\\Documents\\RepositorioTCC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\IFNMG\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\m_da3\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -65,7 +65,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -77,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.412\\RuntimeIdentifierGraph.json"
         }
       }
     }
