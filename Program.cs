@@ -2,6 +2,8 @@ using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using RepositorioTCC.Data;
+using RepositorioTCC.Shared;
 using TccDB;
 
 
@@ -16,6 +18,9 @@ builder.Services.AddDbContext<TCCDbContext>(options =>{
     options.UseSqlite("Data Source=Tcc.db");
 });
 builder.Services.AddScoped<TccServices>();
+builder.Services.AddScoped<UserServices>();
+builder.Services.AddScoped<RepositorioTCCAuthenticationStateProvider>();
+builder.Services.AddSingleton<StateContainer>();
 
 // Adicionar outros serviços, se necessário
 

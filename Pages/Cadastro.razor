@@ -1,0 +1,47 @@
+@page "/cadastro"
+@using Microsoft.AspNetCore.Components.Forms
+@using RepositorioTCC.Data
+@inject UserServices userServices
+@inject IJSRuntime JsRuntime
+@inject NavigationManager navigationManager
+@inject StateContainer stateContainer
+@inject RepositorioTCCAuthenticationStateProvider RepositorioTCCAuthenticationStateProvider
+
+<body>
+    <header>
+        <h1>Repositorios de TCCs</h1>
+        <div class="account-info">
+            <span>Minha Conta</span>
+            <button>Sair</button>
+        </div>
+        </header>
+    <div class="cadastro-container">
+        <h3 class="cadastro-title">cadastro</h3>
+        <input class="input-cadastro-nome" type="text" id="nome" placeholder="Nome" @bind-value="@user.Nome" />
+        <input class="input-cadastro-email" type="email" id="email" placeholder="Email" @bind-value="@user.Email" />
+        <input class="input-cadastro-password" type="password" placeholder="Senha" id="password" @bind-value="@user.Senha" />
+        <button class="button-novo-cadastro" @onclick="Cadastrar">Salvar</button>        
+    </div>
+</body>
+
+@code {
+    private User user = new User();
+
+    public async Task Cadastrar(){
+        string mensagem = "";        
+        try
+        {
+            await userServices.AddUserAsync(user);
+            mensagem = "Usuario cadastrado!";
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("Erro ao tentar adicionar usuário {0}", ex);
+            mensagem = ex.Message;
+        }
+        finally
+        {
+            await JsRuntime.InvokeVoidAsync("alert", mensagem);
+        }      
+    }
+}

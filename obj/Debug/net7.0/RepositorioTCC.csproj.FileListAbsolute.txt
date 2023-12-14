@@ -134,3 +134,4 @@ F:\Users\Kaka\Documentos\C#\TCD\RepositorioTCC\bin\Debug\net7.0\runtimes\win-x64
 F:\Users\Kaka\Documentos\C#\TCD\RepositorioTCC\bin\Debug\net7.0\runtimes\win-x86\native\e_sqlite3.dll
 F:\Users\Kaka\Documentos\C#\TCD\RepositorioTCC\obj\Debug\net7.0\RepositorioTCC.csproj.AssemblyReference.cache
 F:\Users\Kaka\Documentos\C#\TCD\RepositorioTCC\obj\Debug\net7.0\RepositorioTCC.csproj.CopyComplete
+C:\Users\felip\Desktop\Felipe\Faculdade\12Periodo\Desenvolvimento.net\RepositorioTCC\bin\Debug\net7.0\Newtonsoft.Json.dll

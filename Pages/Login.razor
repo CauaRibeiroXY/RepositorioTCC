@@ -1,0 +1,55 @@
+@page "/login"
+@using Microsoft.AspNetCore.Components.Forms
+@using RepositorioTCC.Data
+@inject UserServices userServices
+@inject IJSRuntime JsRuntime
+@inject NavigationManager navigationManager
+@inject StateContainer stateContainer
+@inject RepositorioTCCAuthenticationStateProvider RepositorioTCCAuthenticationStateProvider
+
+
+
+<body class="login-body">
+    <div class="login-container">
+        <h3 class="login-title">Login</h3>
+        <input class="input-login-email" type="email" id="email" @bind-value="@email" />
+        <input class="input-login-password" type="password" id="password" @bind-value="@password" />
+        <button class="button-login" @onclick="LoginAsync">Login</button>
+        <button class="button-cadastro" @onclick="GoToCadastro">Cadastrar</button>
+    </div>
+</body>
+
+@code {
+    private User user = new User();
+
+    string email;
+    string password;
+
+    @* private async Task HandleValidSubmit(User user)
+    {
+        User result = await userServices.Login(user);
+
+        if (result != null)
+        {
+            stateContainer.user = result;
+            navigationManager.NavigateTo("/sala");
+        }
+        else
+        {
+            await JsRuntime.InvokeVoidAsync("alert", "Usuário ou senha inválidos");
+        }
+    } *@
+
+    public async Task LoginAsync(){
+        
+        await RepositorioTCCAuthenticationStateProvider.LoginAsync(email, password);
+
+        if(RepositorioTCCAuthenticationStateProvider.CurrentUser.Email is not null) {
+            navigationManager.NavigateTo("/sala");
+        }
+    }
+
+    public async Task GoToCadastro(){
+            navigationManager.NavigateTo("/cadastro");
+    }
+}
