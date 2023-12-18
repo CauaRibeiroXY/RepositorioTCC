@@ -1,4 +1,4 @@
-@page "/tccsusuario"
+@page "/"
 @inject NavigationManager NavigationManager
 @inject TccDB.TccServices service
 
@@ -9,11 +9,14 @@
     <table class="table">
         <thead>
             <tr>
-                <th>Id</th>
-                <th>Título</th>
+                <th>
+                    <a @onclick="OrdenarPorTitulo">Título ▲▼</a>  
+                </th>
                 <th>Autor</th>
                 <th>Orientador</th>
-                <th>Ano</th>
+                <th>
+                    <a @onclick="OrdenarPorAno">Ano ▲▼</a>  
+                </th>
                 <th>Palavras-chave</th>
                 <th>Resumo</th>
             </tr>
@@ -22,7 +25,6 @@
             @foreach (var tcc in Tccs)
             {
                 <tr>
-                    <td>@tcc.Id</td>
                     <td>@tcc.Titulo</td>
                     <td>@tcc.Autor</td>
                     <td>@tcc.Orientador</td>
@@ -41,9 +43,35 @@ else
 
 @code {
     private List<Tcc> Tccs;
-
+    private bool ordenacaoAscendente = true;
+    private bool ordenacaoAscendenteAno = true;
     protected override async Task OnInitializedAsync()
     {
         Tccs = await service.GetTccsAsync();
+    }
+
+        private void OrdenarPorTitulo()
+    {
+        if (ordenacaoAscendente)
+        {
+            Tccs = Tccs.OrderBy(tcc => tcc.Titulo).ToList();
+        }
+        else
+        {
+            Tccs = Tccs.OrderByDescending(tcc => tcc.Titulo).ToList();
+        }
+        ordenacaoAscendente = !ordenacaoAscendente;
+    }
+    private void OrdenarPorAno()
+    {
+        if (ordenacaoAscendenteAno)
+        {
+            Tccs = Tccs.OrderBy(tcc => tcc.Ano).ToList();
+        }
+        else
+        {
+            Tccs = Tccs.OrderByDescending(tcc => tcc.Ano).ToList();
+        }
+        ordenacaoAscendenteAno = !ordenacaoAscendenteAno;
     }
 }

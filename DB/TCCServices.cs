@@ -21,7 +21,20 @@ public class TccServices
     {
         return await _dbContext.Tccs.ToListAsync();
     }
+    public async Task<List<Tcc>> GetTccsAsync(string searchText)
+{
+    var query = _dbContext.Tccs.AsQueryable();
+    if (!string.IsNullOrEmpty(searchText))
+    {
+        var searchTextUpper = searchText.ToUpper();
 
+        query = query.Where(tcc =>
+            tcc.Titulo.ToUpper().Contains(searchTextUpper) ||
+            tcc.Ano.ToString().ToUpper().Contains(searchTextUpper));
+    }
+
+    return await query.ToListAsync();
+}
     public async Task<Tcc> GetTccPorIdAsync(int id)
     {
         return await _dbContext.Tccs.FindAsync(id);

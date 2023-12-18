@@ -5,6 +5,10 @@ html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 } 
 
+.ordena{
+  cursor: default;
+}
+
 h1:focus {
     outline: none;
 }

@@ -21,7 +21,6 @@ F:\Users\Kaka\Documentos\C#\TCD\RepositorioTCC\obj\Debug\net7.0\staticwebassets.
 F:\Users\Kaka\Documentos\C#\TCD\RepositorioTCC\obj\Debug\net7.0\staticwebassets.build.json
 F:\Users\Kaka\Documentos\C#\TCD\RepositorioTCC\obj\Debug\net7.0\staticwebassets.development.json
 F:\Users\Kaka\Documentos\C#\TCD\RepositorioTCC\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
-F:\Users\Kaka\Documentos\C#\TCD\RepositorioTCC\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
 F:\Users\Kaka\Documentos\C#\TCD\RepositorioTCC\obj\Debug\net7.0\scopedcss\bundle\RepositorioTCC.styles.css
 F:\Users\Kaka\Documentos\C#\TCD\RepositorioTCC\obj\Debug\net7.0\scopedcss\projectbundle\RepositorioTCC.bundle.scp.css
 F:\Users\Kaka\Documentos\C#\TCD\RepositorioTCC\obj\Debug\net7.0\RepositorioTCC.dll
@@ -135,3 +134,4 @@ F:\Users\Kaka\Documentos\C#\TCD\RepositorioTCC\bin\Debug\net7.0\runtimes\win-x86
 F:\Users\Kaka\Documentos\C#\TCD\RepositorioTCC\obj\Debug\net7.0\RepositorioTCC.csproj.AssemblyReference.cache
 F:\Users\Kaka\Documentos\C#\TCD\RepositorioTCC\obj\Debug\net7.0\RepositorioTCC.csproj.CopyComplete
 C:\Users\felip\Desktop\Felipe\Faculdade\12Periodo\Desenvolvimento.net\RepositorioTCC\bin\Debug\net7.0\Newtonsoft.Json.dll
+F:\Users\Kaka\Documentos\C#\TCD\RepositorioTCC\bin\Debug\net7.0\Newtonsoft.Json.dll

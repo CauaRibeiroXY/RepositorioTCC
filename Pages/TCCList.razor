@@ -4,16 +4,30 @@
 
 <h3>Lista de TCCs</h3>
 
+<div class="text-lg-start bg-blue-100">
+    <input class="border-4 w-1/3 rounded m-6 p-6 h-8 border-blue-300"
+           @bind-value="SearchText"
+           @oninput="AtualizarTccs"
+           @onkeypress="@(e => HandleKeyPress(e))"
+           placeholder="Buscar por título ou ano" />
+    <button @onclick="AtualizarTccs" class="btn btn-primary">Buscar</button>
+</div>
+
+
+
 @if (Tccs != null && Tccs.Any())
 {
-    <table class="table">
+    <table class="table ordena">
         <thead>
             <tr>
-                <th>Id</th>
-                <th>Título</th>
+                 <th>
+                    <a @onclick="OrdenarPorTitulo">Título ▲▼</a>  
+                </th>
                 <th>Autor</th>
                 <th>Orientador</th>
-                <th>Ano</th>
+                <th>
+                    <a @onclick="OrdenarPorAno">Ano ▲▼</a>  
+                </th>
                 <th>Palavras-chave</th>
                 <th>Resumo</th>
                 <th>Opções</th>
@@ -23,7 +37,6 @@
             @foreach (var tcc in Tccs)
             {
                 <tr>
-                    <td>@tcc.Id</td>
                     <td>@tcc.Titulo</td>
                     <td>@tcc.Autor</td>
                     <td>@tcc.Orientador</td>
@@ -48,10 +61,18 @@ else
 
 @code {
     private List<Tcc> Tccs;
-
+    private bool ordenacaoAscendente = true;
+    private bool ordenacaoAscendenteAno = true;
+    private string SearchText = "";
     protected override async Task OnInitializedAsync()
     {
         Tccs = await service.GetTccsAsync();
+    }
+
+    private async Task AtualizarTccs()
+    {
+        Tccs = await service.GetTccsAsync(SearchText);
+         StateHasChanged();
     }
 
     private void AdicionarTcc()
@@ -68,5 +89,38 @@ else
     {
         await service.ExcluirTccAsync(tcc.Id);
         Tccs = await service.GetTccsAsync();
+    }
+
+    private void OrdenarPorTitulo()
+    {
+        if (ordenacaoAscendente)
+        {
+            Tccs = Tccs.OrderBy(tcc => tcc.Titulo).ToList();
+        }
+        else
+        {
+            Tccs = Tccs.OrderByDescending(tcc => tcc.Titulo).ToList();
+        }
+        ordenacaoAscendente = !ordenacaoAscendente;
+    }
+    private void OrdenarPorAno()
+    {
+        if (ordenacaoAscendenteAno)
+        {
+            Tccs = Tccs.OrderBy(tcc => tcc.Ano).ToList();
+        }
+        else
+        {
+            Tccs = Tccs.OrderByDescending(tcc => tcc.Ano).ToList();
+        }
+        ordenacaoAscendenteAno = !ordenacaoAscendenteAno;
+    }
+
+    private void HandleKeyPress(KeyboardEventArgs e)
+    {
+        if (e.Key == "Enter")
+        {
+            AtualizarTccs();
+        }
     }
 }
