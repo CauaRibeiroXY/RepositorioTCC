@@ -14,7 +14,7 @@ public class User
     public ClaimsPrincipal ToClaimsPrincipal() => new(new ClaimsIdentity(new Claim[] {
         new (ClaimTypes.Name, Email),
         new (ClaimTypes.Hash, Senha),
-    }, "ReservaSalas"));
+    }, "RepositorioTCC"));
     public static User FromClaimsPrincipal(ClaimsPrincipal principal) => new() { 
         Email = principal.FindFirstValue(ClaimTypes.Name),
         Senha= principal.FindFirstValue(ClaimTypes.Hash),

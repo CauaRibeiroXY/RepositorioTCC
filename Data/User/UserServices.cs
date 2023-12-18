@@ -12,7 +12,7 @@ public class UserServices
 
     private readonly ProtectedLocalStorage protectedLocalStorage;
 
-    private readonly string userStorageKey = "SistemaReservaDeSala";
+    private readonly string userStorageKey = "RepositorioTCC";
     #endregion
 
     #region Construtor
