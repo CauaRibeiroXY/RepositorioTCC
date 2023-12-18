@@ -1,4 +1,4 @@
-﻿@page "/tccs/novo"
+@page "/tccs/novo"
 @inject TccDB.TccServices service
 @inject NavigationManager NavigationManager
 
@@ -29,7 +29,8 @@
     <textarea id="resumo" class="form-control" @bind="NovoTcc.Resumo"></textarea>
 </div>
 
-<button style="margin-top: 1vw;" @onclick="SalvarTcc" class="btn btn-success">Salvar</button>
+<button style="margin-top: 1vw; margin-right: 1rem;" @onclick="SalvarTcc" class="btn btn-success">Salvar</button>
+<button style="margin-top: 1vw;" @onclick="Voltar" class="btn btn-secondary">Voltar</button>
 
 @code {
     private Tcc NovoTcc = new Tcc();
@@ -37,6 +38,10 @@
     private async Task SalvarTcc()
     {
         await service.AdicionarTccAsync(NovoTcc);
+        NavigationManager.NavigateTo("/tccs");
+    }
+private async Task Voltar()
+    {
         NavigationManager.NavigateTo("/tccs");
     }
 }
